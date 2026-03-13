@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #008BFE;
+    --cancel-color: #D00303;
+    --accept-color: #09BB00;
+    --border-color: #CCE8FF;
+    --font-color: #FFFFFF;
+    --hover-color: #6C38CC;
+    --main-font-color: #000000;
+    --background-color: #343D4B;
+    --card-all-info-background-color: #222831;
+    --main-gradient: linear-gradient(131deg, rgba(144, 217, 224, 0.9) 0%, rgba(84, 96, 230, 0.9) 100%);
+    --hover-gradient: linear-gradient(231deg, rgba(144, 217, 224, 0.9) 0%, rgba(84, 96, 230, 0.9) 100%);
+    --input-color: #272E37;
+    --main-font: "Roboto", sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--background-color);
+    color: var(--main-font-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
