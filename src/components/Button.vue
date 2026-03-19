@@ -20,7 +20,7 @@
   font-size: 24px;
   line-height: 150%;
   text-align: center;
-  color: var(--font-color);
+  color: var(--button-font-color);
   font-family: var(--main-font);
   cursor: pointer;
 }
