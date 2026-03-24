@@ -7,6 +7,10 @@ const {cardNumber, word} = defineProps({
 
 const number = cardNumber < 10 ? `0${cardNumber}` : cardNumber;
 
+const onCardClick = (e) => {
+  console.log(e)
+}
+
 </script>
 
 <template>
@@ -17,7 +21,7 @@ const number = cardNumber < 10 ? `0${cardNumber}` : cardNumber;
         {{ word }}
       </span>
 
-      <button class="card-word_button">
+      <button class="card-word_button" @click="onCardClick">
         ПЕРЕВЕНУТЬ
       </button>
     </div>
