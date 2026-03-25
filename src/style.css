@@ -3,14 +3,17 @@
     --cancel-color: #D00303;
     --accept-color: #09BB00;
     --border-color: #CCE8FF;
-    --font-color: #FFFFFF;
+    --button-font-color: #FFFFFF;
+    --card-background-color: #FFFFFF;
     --hover-color: #6C38CC;
     --main-font-color: #000000;
-    --background-color: #343D4B;
+    --background-color: #F0F4F8;
     --card-all-info-background-color: #222831;
     --main-gradient: linear-gradient(131deg, rgba(144, 217, 224, 0.9) 0%, rgba(84, 96, 230, 0.9) 100%);
     --hover-gradient: linear-gradient(231deg, rgba(144, 217, 224, 0.9) 0%, rgba(84, 96, 230, 0.9) 100%);
     --input-color: #272E37;
+    --main-header-color: #222222;
+    --score-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.15);
     --main-font: "Roboto", sans-serif;
 }
 
