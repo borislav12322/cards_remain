@@ -8,7 +8,7 @@ import Score from "./Score.vue";
     <div class="header_wrapper">
       <h1 class="header_main-title">ЗАПОМНИ СЛОВО</h1>
 
-      <Score :scores="100"/>
+      <Score/>
     </div>
   </header>
 </template>
