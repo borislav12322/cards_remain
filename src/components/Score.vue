@@ -1,9 +1,9 @@
 <script setup>
 import LikeIcon from "../assets/icons/LikeIcon.vue";
+import {ref} from "vue";
 
-const {scores} = defineProps({
-  scores: Number,
-})
+const scores = ref(110);
+
 </script>
 
 <template>

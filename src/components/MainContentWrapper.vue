@@ -1,9 +1,17 @@
 <script setup>
 import Header from "./Header.vue";
 import CardWord from "./CardWord.vue";
+import {ref} from "vue";
 
-const word = 'unadmitted';
 const number = 1;
+
+const cardInfo = ref({
+  word: 'unadmitted',
+  translation: 'не допущенный',
+  state: 'closed',
+  status: 'pending',
+});
+
 </script>
 
 <template>
@@ -11,7 +19,7 @@ const number = 1;
     <Header/>
 
     <div class="main_content_box">
-      <CardWord :cardNumber="number" :word="word"/>
+      <CardWord :cardNumber="number" :word="cardInfo.word"/>
     </div>
   </div>
 </template>
